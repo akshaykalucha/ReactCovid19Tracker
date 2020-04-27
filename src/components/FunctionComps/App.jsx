@@ -48,7 +48,7 @@ function App() {
     ])
 
     const addTodo = text => {
-        const NewTodos = [... todos, { text }]
+        const NewTodos = [...todos, { text }]
         setTodos(NewTodos)
     }
 
