@@ -19,6 +19,8 @@ const Card = () => {
         background-color: ${backgroundColor};
         margin: 0 auto;
         transition: .5s;
+        box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.40);
+        border-radius: 12px;
         h1{
             font-family: "Abril-Fatface";
             font-weight: 400;
